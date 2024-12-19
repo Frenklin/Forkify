@@ -130,6 +130,10 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
+// test git
+const newFeature = function () {
+  console.log('test test');
+};
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
   recipeView.addHandlerRender(controlRecipes);
@@ -141,6 +145,7 @@ const init = function () {
 
   // view.renderMessage('Start by searching for a recipe!');
   resultsView.renderMessage('Start by searching for a recipe!');
-  console.log('Git test');
+
+  newFeature();
 };
 init();
